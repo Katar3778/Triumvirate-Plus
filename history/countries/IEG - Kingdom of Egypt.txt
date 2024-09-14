@@ -1,1 +1,2 @@
-capital = 654 #Oyrot/Gorno-Altaysk
+capital = 654 #Oyrot/Gorno-Altaysk ### Capital City
+capital = 654
