@@ -1,4 +1,4 @@
-add_namespace = triumviratepluspluscountry
+add_namespace = triumvirateplus
 add_namespace = triumviratenews
 add_namespace = trsunited
 
