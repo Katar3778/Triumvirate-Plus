@@ -2,26 +2,3 @@ add_namespace = triumviratepluspluscountry
 add_namespace = triumviratenews
 add_namespace = trsunited
 
-country_event = {
-	id = trsunited.1
-	title = trsunited.1.t
-	desc = trsunited.1.d
-	picture = GFX_report_event_generic_rally
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = trsunited.1.a
-		
-		trigger = {
-		}
-		
-		RMK = {
-			
-			hidden_effect = {
-			
-			    if = {
-					limit = {
-						IPA = { controls_state = 455 }
-					}
-					455 = { add_core_of = RMK }
