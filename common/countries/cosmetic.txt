@@ -1250,7 +1250,7 @@ IGL_unified = {
 	color_ui = rgb { 0 148 24 }
 }
 
-RFC_collaboration_france = {
+IFR_collaboration_france = {
 color = rgb { 65 109 167 }
 color_ui = rgb { 65 109 167 }
 }
