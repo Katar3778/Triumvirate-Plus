@@ -1,6 +1,6 @@
 ﻿l_english:
- IEG_fascism:0 "The Kingdom of Egypt"
- IEG_fascism_DEF:0 "the Kingdom of Egypt"
+ IEG_fascism:0 "Kingdom of Egypt"
+ IEG_fascism_DEF:0 "The Kingdom of Egypt"
  IEG_democratic:0 "Republic of Egypt"
  IEG_democratic_DEF:0 "the Republic of Egypt"
  IEG_neutrality:1 "Kingdom of Egypt"
