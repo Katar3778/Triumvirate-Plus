@@ -1,0 +1,14 @@
+version="1"
+tags={
+	"Alternative History"
+	"Historical"
+	"Events"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Balance"
+	"Fixes"
+	"Graphics"
+}
+name="Triumvirate Plus"
+supported_version="1.14.*"
