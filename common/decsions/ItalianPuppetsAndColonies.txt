@@ -701,7 +701,8 @@ ITA_triumvirateplus_category_asia = {
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
-				656 = { is_controlled_by_ROOT_or_subject = yes }	
+				658 = { is_controlled_by_ROOT_or_subject = yes }	
+				765 = { is_controlled_by_ROOT_or_subject = yes }
 
 			}
 
@@ -731,7 +732,8 @@ ITA_triumvirateplus_category_asia = {
 			every_state = {
 			    limit = {
 				    OR = {
-						state = 656
+						state = 658
+						state = 765
 				    }
 			    }
 
