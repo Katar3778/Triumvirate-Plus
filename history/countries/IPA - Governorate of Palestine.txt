@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Kost_Levytsky
 	expire = "1953.3.1"
-	ideology = fascism
+	ideology = fascism_ideology
 	traits = {
 		
 	}
