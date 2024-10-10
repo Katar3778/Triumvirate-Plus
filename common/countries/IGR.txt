@@ -1,4 +1,4 @@
-graphical_culture = GER
+graphical_culture = ITA
 graphical_culture_2d = eastern_european_2d
 
 color = rgb { 121 159 153 }
