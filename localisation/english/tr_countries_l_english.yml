@@ -1,2 +1,16 @@
 ﻿l_english:
- 
+ IEG_fascism:0 "The Kingdom of Egypt"
+ IEG_fascism_DEF:0 "the Kingdom of Egypt"
+ IEG_democratic:0 "Republic of Egypt"
+ IEG_democratic_DEF:0 "the Republic of Egypt"
+ IEG_neutrality:1 "Kingdom of Egypt"
+ IEG_neutrality_DEF:1 "the Kingdom of Egypt"
+ IEG_communism:0 "Socialist Republic of Egypt"
+ IEG_communism_DEF:0 "the Socialist Republic of Egypt"
+ IEG_fascism_ADJ:0 "Egyptian"
+ IEG_democratic_ADJ:0 "Egyptian"
+ IEG_neutrality_ADJ:0 "Egyptian"
+ IEG_communism_ADJ:0 "Egyptian"
+ IEG:0 "Egypt"
+ IEG_DEF:0 "Egypt"
+ IEG_ADJ:0 "Egyptian"
