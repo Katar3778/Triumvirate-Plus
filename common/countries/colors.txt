@@ -928,8 +928,8 @@ ISA = {
 }
 
 IYE = {
-	color = rgb { 76 121 90 }
-	color_ui = rgb { 76 121 90 }
+	color = rgb { 185 68 68 }
+	color_ui = rgb { 185 68 68 }
 }
 
 IOM = {
