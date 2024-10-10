@@ -1,0 +1,16 @@
+ITA_triumvirateplus_category_europe = {
+
+	icon = ger_reichskommissariats
+
+	allowed = {
+		original_tag = ITA
+	}
+
+	visible = {
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
+	visible_when_empty = yes
+	}
+}
