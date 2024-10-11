@@ -124,7 +124,8 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-
+            }
+			
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				185 = { is_controlled_by_ROOT_or_subject = yes }	
