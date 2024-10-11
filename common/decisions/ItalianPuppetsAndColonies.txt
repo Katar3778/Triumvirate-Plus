@@ -9,26 +9,24 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-			}
 
-            custom_trigger_tooltip = {
+			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
-				107 = { is_controlled_by_ROOT_or_subject = yes }	
-				108 = { is_controlled_by_ROOT_or_subject = yes }
-			}			
+				107 = { is_controlled_by_ROOT_or_subject = yes }
+				108 = { is_controlled_by_ROOT_or_subject = yes }	
+			}
 
 		}
 
 		cost = 0
 		ai_will_do = {
-			base = 10
+			factor = 10
 		}
 
 		visible = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-			}
 		}
 		
 		fire_only_once = yes
@@ -38,13 +36,13 @@ ITA_triumvirateplus_category_europe = {
 			add_political_power = 25
 				add_stability = 0.01
 
-				set_autonomy = { target = ISE autonomy_state = autonomy_reichskommissariat }
+				set_autonomy = { target = ISE autonomy_state = autonomy_reichskommissariat}
 			}
-				
+
 			every_state = {
 			    limit = {
 				    OR = {
-					    state = 107
+						state = 107
 						state = 108
 				    }
 			    }
@@ -70,7 +68,6 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-			}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -125,9 +122,10 @@ ITA_triumvirateplus_category_europe = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+            }
+			
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				185 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -185,9 +183,9 @@ ITA_triumvirateplus_category_europe = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				934 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -245,9 +243,9 @@ ITA_triumvirateplus_category_europe = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				109 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -308,9 +306,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				452 = { is_controlled_by_ROOT_or_subject = yes }
@@ -394,9 +392,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				458 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -452,9 +450,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				459 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -514,9 +512,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				448 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -531,7 +529,7 @@ ITA_triumvirateplus_category_africa
 
 		}
 
-		cost = 2000
+		cost = 300
 		ai_will_do = {
 			factor = 10
 		}
@@ -584,9 +582,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				775 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -641,9 +639,9 @@ ITA_triumvirateplus_category_africa
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				775 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -699,9 +697,9 @@ ITA_triumvirateplus_category_asia = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				658 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -758,9 +756,9 @@ ITA_triumvirateplus_category_asia = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				854 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -831,9 +829,9 @@ ITA_triumvirateplus_category_asia = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				293 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -890,9 +888,10 @@ ITA_triumvirateplus_category_asia = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}			custom_trigger_tooltip = { 
+				has_government = fascism
+				has_government = neutrality
+
+			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				294 = { is_controlled_by_ROOT_or_subject = yes }	
 
@@ -946,9 +945,9 @@ ITA_triumvirateplus_category_asia = {
 
 		available = {
 			OR = {
-			has_government = fascism
-			has_government = neutrality
-			}
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				454 = { is_controlled_by_ROOT_or_subject = yes }	
@@ -1002,9 +1001,10 @@ ITA_triumvirateplus_category_asia = {
 		icon = ger_reichskommissariats
 
 		available = {
-			OR = {has_government = fascism
-			has_government = neutrality
-			}
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				455 = { is_controlled_by_ROOT_or_subject = yes }	

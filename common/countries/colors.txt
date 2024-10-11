@@ -467,7 +467,7 @@ KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
 }
-ISR = {
+ISE = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
@@ -928,8 +928,8 @@ ISA = {
 }
 
 IYE = {
-	color = rgb { 76 121 90 }
-	color_ui = rgb { 76 121 90 }
+	color = rgb { 185 68 68 }
+	color_ui = rgb { 185 68 68 }
 }
 
 IOM = {
@@ -965,4 +965,9 @@ IFR = {
 IAL = {
 	color = rgb { 174 86 134 }
 	color_ui = rgb { 174 86 134 }
+}
+
+GUL = {
+	color = rgb { 15 153 0 }
+	color_ui = rgb { 15 153 0 }
 }
