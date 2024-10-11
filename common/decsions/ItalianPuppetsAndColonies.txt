@@ -528,7 +528,7 @@ ITA_triumvirateplus_category_africa
 
 		}
 
-		cost = 2000
+		cost = 300
 		ai_will_do = {
 			factor = 10
 		}
