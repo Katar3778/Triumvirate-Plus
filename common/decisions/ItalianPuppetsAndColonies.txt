@@ -61,7 +61,6 @@ ITA_triumvirateplus_category_europe = {
 		    }
 		}
 	}
-
     ITA_triumvirateplus_governorateofmontenegro = {
 
 		icon = ger_reichskommissariats
@@ -117,6 +116,7 @@ ITA_triumvirateplus_category_europe = {
 			    }
 		    }
 		}
+	}
 	}
 
     ITA_triumvirateplus_hellenicstate = {
@@ -180,6 +180,7 @@ ITA_triumvirateplus_category_europe = {
 		    }
 		}
 	}
+	}
 
     ITA_triumvirateplus_kingdomofalbania = {
 
@@ -240,6 +241,7 @@ ITA_triumvirateplus_category_europe = {
 			    }
 		    }
 		}
+	}
 	}
 
     ITA_triumvirateplus_independentstateofcroatia = {
@@ -304,8 +306,7 @@ ITA_triumvirateplus_category_europe = {
 		}
 	}
 
-ITA_triumvirateplus_category_africa
- = {
+ITA_triumvirateplus_category_africa = {
 
     ITA_triumvirateplus_kingdom_of_egypt = {
 
@@ -452,6 +453,7 @@ ITA_triumvirateplus_category_africa
 			    }
 		    }
 		}
+	}
 	}
 
     ITA_triumvirateplus_italianalgeria = {
@@ -647,6 +649,7 @@ ITA_triumvirateplus_category_africa
 		    }
 		}
 	}
+	}
 
     ITA_triumvirateplus_italianniger = {
 
@@ -705,6 +708,8 @@ ITA_triumvirateplus_category_africa
 		    }
 		}
 	}
+	}
+}
 ITA_triumvirateplus_category_asia = {
 
     ITA_triumvirateplus_governorateofthegulf = {
@@ -961,6 +966,7 @@ ITA_triumvirateplus_category_asia = {
 		    }
 		}
 	}
+	}
 
     ITA_triumvirateplus_governorateofpalestine = {
 
@@ -1018,6 +1024,7 @@ ITA_triumvirateplus_category_asia = {
 			    }
 		    }
 		}
+	}
 	}
 
     ITA_triumvirateplus_emirateoftransjordan = {
@@ -1078,6 +1085,7 @@ ITA_triumvirateplus_category_asia = {
 		    }
 		}
 	}
+}
 
 ITA_triumvirateplus_category_uniting_pac = {
 
@@ -1124,4 +1132,4 @@ ITA_triumvirateplus_category_uniting_pac = {
 			country_event = trsunited.1
 		}
 	}
-
+}
