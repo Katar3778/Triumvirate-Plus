@@ -4,3 +4,24 @@ ITA_triumvirateplus_category_europe = {
 		original_tag = ITA
 	}
 }
+
+ITA_triumvirateplus_category_asia = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}
+
+ITA_triumvirateplus_category_africa = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}
+
+ITA_triumvirateplus_category_uniting_pac = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}

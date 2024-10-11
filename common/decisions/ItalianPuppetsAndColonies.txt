@@ -117,7 +117,6 @@ ITA_triumvirateplus_category_europe = {
 		    }
 		}
 	}
-	}
 
     ITA_triumvirateplus_hellenicstate = {
 
