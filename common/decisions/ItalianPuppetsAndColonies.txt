@@ -9,6 +9,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+			}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -27,6 +28,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -68,6 +70,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -124,6 +127,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
             }
 			
 			custom_trigger_tooltip = { 
@@ -185,6 +189,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -245,6 +250,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -264,6 +270,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -308,6 +315,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -339,6 +347,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -394,6 +403,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -452,6 +462,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -472,6 +483,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -514,6 +526,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -538,6 +551,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -584,6 +598,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -641,6 +656,7 @@ ITA_triumvirateplus_category_africa
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -699,6 +715,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -718,6 +735,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -758,6 +776,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -784,6 +803,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -831,6 +851,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -850,6 +871,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
@@ -890,6 +912,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -947,6 +970,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -1004,6 +1028,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -1022,6 +1047,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+				}
 		}
 		
 		fire_only_once = yes
