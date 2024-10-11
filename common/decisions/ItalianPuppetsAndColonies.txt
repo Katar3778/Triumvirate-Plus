@@ -87,8 +87,8 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
+			}
 		}
-		
 		fire_only_once = yes
 
 		complete_effect = {
@@ -137,7 +137,6 @@ ITA_triumvirateplus_category_europe = {
 				47 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
-		}
 
 		cost = 0
 		ai_will_do = {
@@ -305,6 +304,7 @@ ITA_triumvirateplus_category_europe = {
 		    }
 		}
 	}
+}
 
 ITA_triumvirateplus_category_africa = {
 
