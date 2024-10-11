@@ -1,0 +1,6 @@
+ITA_triumvirateplus_category_europe = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}
