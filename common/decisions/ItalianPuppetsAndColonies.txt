@@ -323,6 +323,7 @@ ITA_triumvirateplus_category_africa = {
 			    tooltip = trsplus.tooltip.1
 				452 = { is_controlled_by_ROOT_or_subject = yes }
 				447 = { is_controlled_by_ROOT_or_subject = yes }
+				907 = { is_controlled_by_ROOT_or_subject = yes }
 				446 = { is_controlled_by_ROOT_or_subject = yes }
 				453 = { is_controlled_by_ROOT_or_subject = yes }
 				457 = { is_controlled_by_ROOT_or_subject = yes }
@@ -380,7 +381,7 @@ ITA_triumvirateplus_category_africa = {
 						state = 884
 						state = 885
 						state = 549
-
+						state = 907
 				    }
 			    }
 
