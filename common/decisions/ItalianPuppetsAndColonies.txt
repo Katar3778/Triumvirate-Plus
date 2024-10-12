@@ -294,7 +294,7 @@ ITA_triumvirateplus_category_europe = {
 				    }
 			    }
 
-			    IGR = {
+			    ICR = {
 
 				    transfer_state = PREV
 					
