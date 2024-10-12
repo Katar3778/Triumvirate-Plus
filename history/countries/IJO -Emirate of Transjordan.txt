@@ -33,7 +33,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Abdullah I bin Al-Hussein"
 	desc = ""
 	picture = "gfx/leaders/IJO/abdullahi.dds"
 	ideology = fascism_ideology
@@ -43,7 +43,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Abdullah I bin Al-Hussein"
 	desc = ""
 	picture = "gfx/leaders/IJO/abdullahi.dds"
 	ideology = despotism
