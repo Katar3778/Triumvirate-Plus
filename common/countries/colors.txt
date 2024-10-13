@@ -976,3 +976,18 @@ TIQ = {
 	color = rgb { 154 78 78 }
 	color_ui = rgb { 154 78 78 }
 }
+
+ITQ = {
+	color = rgb { 137 119 142 }
+	color_ui = rgb { 137 119 142 }
+}
+
+SNS = {
+	color = rgb { 201 64 64 }
+	color_ui = rgb { 201 64 64 }
+}
+
+BKU = {
+	color = rgb { 214 83 83 }
+	color_ui = rgb { 214 83 83 }
+}
