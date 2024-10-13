@@ -196,6 +196,7 @@ ITA_triumvirateplus_category_europe = {
 				934 = { is_controlled_by_ROOT_or_subject = yes }
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				44 = { is_controlled_by_ROOT_or_subject = yes }
+				802 = {is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -228,6 +229,7 @@ ITA_triumvirateplus_category_europe = {
 						state = 934
 						state = 805
 						state = 44
+						state = 802
 				    }
 			    }
 

@@ -1,2 +1,69 @@
 ### Capital City
 capital = 107
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 20
+	fascism = 30
+	communism = 20
+	neutrality = 30
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1939.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+set_stability = 0.6
+
+create_country_leader = {
+	name = "Draza Mihailovic"
+	desc = ""
+	picture = GFX_portrait_Draza_Mihailovic
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Milan Nedic"
+	desc = ""
+	picture = GFX_portrait_Milan_Nedic
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Peter Karadordevic"
+	desc = ""
+	picture = GFX_portrait_Peter_Karadordevic
+	expire = "1965.1.1"
+	ideology = Despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zivorad Jovanovic"
+	desc = ""
+	picture = GFX_portrait_Zivorad_Jovanovic
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
