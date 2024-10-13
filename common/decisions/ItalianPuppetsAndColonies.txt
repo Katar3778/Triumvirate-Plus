@@ -726,7 +726,6 @@ ITA_triumvirateplus_category_asia = {
 			tooltip = trsplus.tooltip.1
 			675 = { is_controlled_by_ROOT_or_subject = yes }
 			291 = { is_controlled_by_ROOT_or_subject = yes }
-			656 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		
@@ -749,7 +748,7 @@ ITA_triumvirateplus_category_asia = {
 			add_political_power = 25
 				add_stability = 0.01
 				
-				set_autonomy = { target TIQ autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target ITQ autonomy_state = autonomy_reichskommissariat}
 			}
 			
 			every_state = {
@@ -757,11 +756,10 @@ ITA_triumvirateplus_category_asia = {
 					OR = {
 					state = 291
 					state = 675
-					state = 656
 					}
 				}
 				
-				TIQ = {
+				ITQ = {
 					
 					transfer_state = PREV
 					
@@ -811,7 +809,7 @@ ITA_triumvirateplus_category_asia = {
 			add_political_power = 25
 				add_stability = 0.01
 
-				set_autonomy = { target = GUL autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = IGU autonomy_state = autonomy_reichskommissariat}
 			}
 
 			every_state = {
@@ -822,7 +820,7 @@ ITA_triumvirateplus_category_asia = {
 				    }
 			    }
 
-			    GUL = {
+			    IGU = {
 
 				    transfer_state = PREV
 					
