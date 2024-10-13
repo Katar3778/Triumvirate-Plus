@@ -1,3 +1,29 @@
 add_namespace = triumvirateplus
 add_namespace = triumviratenews
 add_namespace = trsunited
+
+country_event = {
+	id = trsunited.1
+	title = trsunited.1.t
+	desc = trsunited.1.d
+	picture = GFX_report_event_generic_rally
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = trsunited.1.a
+		
+		trigger = { 
+		}
+		
+		IPA = {
+				set_cosmetic_tag = levant
+				add_core_of = IJO
+				annex_country = {
+					target = IJO
+					transfer_troops = yes
+				}
+			}
+	}
+}
