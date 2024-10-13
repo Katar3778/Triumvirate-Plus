@@ -1163,8 +1163,8 @@ ITA_triumvirateplus_category_uniting_pac = {
 		
             custom_trigger_tooltip = { 
 			    tooltip = trsunited.unitetooltip.1
-				IPA = { has_country_flag = IPA_territory_decision }
-				IJO = { has_country_flag = IJO_territory_decision }
+				454 = { is_controlled_by_ROOT_or_subject = yes }
+				455 = { is_controlled_by_ROOT_or_subject = yes }
 			}			
 		}
 
@@ -1186,15 +1186,18 @@ ITA_triumvirateplus_category_uniting_pac = {
 		fire_only_once = yes
 
 		complete_effect = {
+			IPA = {
+				set_cosmetic_tag = levant
+				add_core_of = IJO
+				annex_country = {
+					target = IJO
+					transfer_troops = yes
+				}
+			}
 			country_event = trsunited.1
 		}
 		timeout_effect = {
 			country_event = trsunited.1
 		}
-	}
-	
-	ITA_triumvirateplus_unite_arabia = {
-	
-	icon = ger_reichskommissariats
 	}
 }
