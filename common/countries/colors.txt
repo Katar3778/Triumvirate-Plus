@@ -467,7 +467,7 @@ KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
 }
-ISE = {
+ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
@@ -882,7 +882,7 @@ GRN = {
 
 ### +TR ###
 
-ISR = {
+ISE = {
 	color = rgb { 60 90 138 }
 	color_ui = rgb { 60 90 138 }
 }

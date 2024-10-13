@@ -277,7 +277,7 @@ NAH = "countries/Nahua.txt"
 IAS = "countries/Isthmo Amerindia.txt"
 
 # ITALIAN PUPPETS
-GUL = "countries/GUL.txt"
+IGU = "countries/IGU.txt"
 IAL = "countries/IAL.txt"
 ICH = "countries/ICH.txt"
 ICR = "countries/ICR.txt"
