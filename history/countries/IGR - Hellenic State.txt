@@ -1,2 +1,57 @@
 ### Capital City
 capital = 47
+oob = "IGR_1936"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 50
+	communism = 5
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Themistoklis Sofoulis"
+	desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+	picture = GFX_portrait_gre_themistoklis_sofoulis
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		professional_crisis_solver
+	}
+}
+
+create_country_leader = {
+	name = "Georgios Themelis"
+	desc = ""
+	picture = "gfx/leaders/IGR/georgios.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Georgios Themelis"
+	desc = ""
+	picture = "gfx/leaders/IGR/georgios.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stefanos Sarafis"
+	desc = ""
+	picture = "gfx/leaders/IGR/stefanos.dds"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
