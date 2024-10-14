@@ -1,5 +1,5 @@
 graphical_culture = ITA
 graphical_culture_2d = middle_eastern_2d 
 
-color = { 43 153 0 } #
-color_ui = rgb { 43 153 0 } #
+color = { 43 153 0 }
+color_ui = rgb { 43 153 0 }
