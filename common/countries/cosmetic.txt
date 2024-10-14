@@ -1254,3 +1254,115 @@ IFR_collaboration_france = {
 color = rgb { 65 109 167 }
 color_ui = rgb { 65 109 167 }
 }
+
+### +TR ###
+
+ISE = {
+	color = rgb { 60 90 138 }
+	color_ui = rgb { 60 90 138 }
+}
+
+IMT = {
+	color = rgb { 109 109 173 }
+	color_ui = rgb { 109 109 173 }
+}
+
+IGR = {
+	color = rgb { 121 159 153 }
+	color_ui = rgb { 121 159 153 }
+}
+
+IEG = {
+	color = rgb { 43 153 0 }
+	color_ui = rgb { 43 153 0 }
+}
+
+ITU = {
+	color = rgb { 57 138 0 }
+	color_ui = rgb { 57 138 0 }
+}
+
+ILG = {
+	color = rgb { 0 143 24 }
+	color_ui = rgb { 0 143 24 }
+}
+
+ICH = {
+	color = rgb { 0 120 32 }
+	color_ui = rgb { 0 120 32 }
+}
+
+INR = {
+	color = rgb { 135 176 0 }
+	color_ui = rgb { 135 176 0 }
+}
+
+ISA = {
+	color = rgb { 76 121 90 }
+	color_ui = rgb { 76 121 90 }
+}
+
+IYE = {
+	color = rgb { 185 68 68 }
+	color_ui = rgb { 185 68 68 }
+}
+
+IOM = {
+	color = rgb { 118 136 133 }
+	color_ui = rgb { 118 136 133 }
+}
+
+IPA = {
+	color = rgb { 86 156 0 }
+	color_ui = rgb { 86 156 0 }
+}
+
+IJO = {
+	color = rgb { 0 153 64 }
+	color_ui = rgb { 0 153 64 }
+}
+
+ILB = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}
+
+ICR = {
+	color = rgb { 199 103 168 }
+	color_ui = rgb { 199 103 168 }
+}
+
+IFR = {
+	color = rgb { 80 150 179 }
+	color_ui = rgb { 80 150 179 }
+}
+
+IAL = {
+	color = rgb { 174 86 134 }
+	color_ui = rgb { 174 86 134 }
+}
+
+GUL = {
+	color = rgb { 15 153 0 }
+	color_ui = rgb { 15 153 0 }
+}
+
+TIQ = {
+	color = rgb { 154 78 78 }
+	color_ui = rgb { 154 78 78 }
+}
+
+ITQ = {
+	color = rgb { 137 119 142 }
+	color_ui = rgb { 137 119 142 }
+}
+
+SNS = {
+	color = rgb { 201 64 64 }
+	color_ui = rgb { 201 64 64 }
+}
+
+BKU = {
+	color = rgb { 214 83 83 }
+	color_ui = rgb { 214 83 83 }
+}
