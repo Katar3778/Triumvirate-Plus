@@ -362,7 +362,7 @@ ITA_triumvirateplus_category_africa = {
 			add_political_power = 25
 				add_stability = 0.01
 
-				set_autonomy = { target = REG autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = IEG autonomy_state = autonomy_reichskommissariat}
 			}
 
 			every_state = {
