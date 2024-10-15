@@ -967,7 +967,7 @@ IAL = {
 	color_ui = rgb { 174 86 134 }
 }
 
-GUL = {
+IGU {
 	color = rgb { 15 153 0 }
 	color_ui = rgb { 15 153 0 }
 }

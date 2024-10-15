@@ -1272,7 +1272,7 @@ IGR = {
 	color_ui = rgb { 121 159 153 }
 }
 
-REG = {
+IEG = {
 	color = rgb { 43 153 0 }
 	color_ui = rgb { 43 153 0 }
 }
@@ -1342,7 +1342,7 @@ IAL = {
 	color_ui = rgb { 174 86 134 }
 }
 
-GUL = {
+IGU {
 	color = rgb { 15 153 0 }
 	color_ui = rgb { 15 153 0 }
 }

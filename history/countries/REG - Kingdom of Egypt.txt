@@ -1,7 +1,7 @@
 ### Capital City
 capital = 907
 
-oob = "REG_1936"
+oob = "IEG_1936"
 
 
 
