@@ -326,8 +326,6 @@ ITA_triumvirateplus_category_africa = {
 				452 = { is_controlled_by_ROOT_or_subject = yes }
 				447 = { is_controlled_by_ROOT_or_subject = yes }
 				907 = { is_controlled_by_ROOT_or_subject = yes }
-				446 = { is_controlled_by_ROOT_or_subject = yes }
-				453 = { is_controlled_by_ROOT_or_subject = yes }
 				457 = { is_controlled_by_ROOT_or_subject = yes }
 				552 = { is_controlled_by_ROOT_or_subject = yes }
 				456 = { is_controlled_by_ROOT_or_subject = yes }
@@ -370,8 +368,6 @@ ITA_triumvirateplus_category_africa = {
 				    OR = {
 						state = 452
 						state = 447
-						state = 446
-						state = 453
 						state = 457
 						state = 552
 						state = 456
