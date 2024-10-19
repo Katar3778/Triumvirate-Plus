@@ -1,6 +1,7 @@
-add_namespace = triumvirateplus
-add_namespace = triumviratenews
+add_namespace = trplus
+add_namespace = trnews
 add_namespace = trsunited
+add_namespace = trques
 
 country_event = {
 	id = trsunited.1
@@ -25,5 +26,100 @@ country_event = {
 					transfer_troops = yes
 				}
 			}
+	}
+}
+
+country_event = {
+	id = trques.1
+	title = trques.1.t
+	desc = trques.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name  = trques.1.a
+		
+		trigger = { country_exists = IPA }
+		
+		IPA = {
+			transfer_state = 453
+			
+			hidden_effect = {
+			add_state_core = 453
+			}
+		}
+		ITA = { set_country_flag = ITA_sinai_territorial_decision }
+	}
+	
+	option = {
+		name = trques.1.b
+		trigger = { country_exists = IEG }
+		
+		IEG = {
+			transfer_state = 453
+			
+			hidden_effect = {
+			add_state_core = 453
+			}
+		}
+		ITA = { set_country_flag = ITA_sinai_territorial_decision }
+		ITA = { set_country_flag = ITA_sinai_egypt_territorial_decision }
+	}
+	
+}
+
+country_event = {
+	id = trques.2
+	title = trques.2.t
+	desc = trques.2.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name  = trques.2.a
+		
+		trigger = {
+			NOT = {
+			has_country_flag = ITA_sinai_egypt_territorial_decision
+			}
+		}
+		
+		IPA = {
+			transfer_state = 446
+			
+			hidden_effect = {
+			add_state_core = 446
+			}
+		}
+	}
+	
+	option = {
+		name = trques.2.b
+		
+		trigger = { country_exists = IEG }
+		
+		IEG = {
+			transfer_state = 446
+			
+			hidden_effect = {
+			add_state_core = 446
+			}
+		}
+	}
+	
+	option = {
+		name = trques.2.c
+		
+		trigger = { country_exists = ITA }
+		
+		ITA = {
+			transfer_state = 446
+			
+			hidden_effect = {
+			add_state_core = 446
+			}
+		}
 	}
 }

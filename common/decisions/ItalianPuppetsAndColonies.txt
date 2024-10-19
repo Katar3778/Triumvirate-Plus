@@ -592,6 +592,84 @@ ITA_triumvirateplus_category_africa = {
 		    }
 		}
 	}
+	
+	ITA_triumvirateplus_suezquestion = {
+	
+		icon = ger_reichskommissariats
+		
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				country_exists = IEG
+				country_exists = IPA
+				446 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = trques.2
+		}
+		timeout_effect = {
+			country_event = trques.2
+		}
+	}
+	
+	ITA_triumvirateplus_sinaiquestion = {
+	
+		icon = ger_reichskommissariats
+		
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				country_exists = IEG
+				country_exists = IPA
+				453 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+		
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = trques.1
+		}
+		timeout_effect = {
+			country_event = trques.1
+		}
+	}
 
     ITA_triumvirateplus_italiancentralafrica = {
 
@@ -601,7 +679,7 @@ ITA_triumvirateplus_category_africa = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
