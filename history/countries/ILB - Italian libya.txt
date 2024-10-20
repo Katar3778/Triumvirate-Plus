@@ -1,2 +1,0 @@
-### Capital City
-capital = 448

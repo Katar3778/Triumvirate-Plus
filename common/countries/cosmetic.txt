@@ -1322,11 +1322,6 @@ IJO = {
 	color_ui = rgb { 0 153 64 }
 }
 
-ILB = {
-	color = rgb { 0 153 0 }
-	color_ui = rgb { 0 153 0 }
-}
-
 ICR = {
 	color = rgb { 199 103 168 }
 	color_ui = rgb { 199 103 168 }
