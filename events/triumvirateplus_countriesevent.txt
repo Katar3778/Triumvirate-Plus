@@ -19,7 +19,7 @@ country_event = {
 		}
 		
 		IPA = {
-				set_cosmetic_tag = levant
+				set_cosmetic_tag = LEV
 				add_state_core = 455
 				annex_country = {
 					target = IJO
