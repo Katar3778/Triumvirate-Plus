@@ -1,0 +1,431 @@
+focus_tree = {
+	id = trtunisia_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITU
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1250 }  
+	initial_show_position = {
+		x = 12
+		y = 0
+	}
+
+	focus = {
+		id = ITU_cleanup_the_mess
+		icon = GFX_goal_generic_political_pressure
+		#prerequisite = { focus = }
+
+		x = 10
+		y = 0
+		#relative_position_id = 
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    add_stability = 0.1
+			add_political_power = 100
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_mobilize_native
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = ITU_cleanup_the_mess }
+
+		x = -2
+		y = 1
+		relative_position_id = ITU_cleanup_the_mess
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		
+			add_ideas = ITU_mobilizationnative	
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_exploitresources
+		icon = GFX_focus_generic_steel
+		prerequisite = { focus = ITU_mobilize_native }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_mobilize_native
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		
+			add_resource = {
+                type = steel
+                amount = 25
+                state = 665
+            }
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_militaryindustries
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ITU_exploitresources }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_exploitresources
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		
+			458 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+			
+			665 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_devalue_krona
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = ITU_cleanup_the_mess }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_cleanup_the_mess
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    add_stability = -0.05
+			
+			add_ideas = ITU_inflation
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_invite_italian_settlers
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = ITU_devalue_krona }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_devalue_krona
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    add_manpower = 25000
+			
+			add_ideas = ITU_settlers
+			
+		}
+	}
+	
+	focus = {
+		id = ITU_nazi_party
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = ITU_invite_italian_settlers }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_invite_italian_settlers
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    add_stability = 0.10
+			
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.25
+            }
+		}
+	}
+	
+	focus = {
+		id = ITU_italian_equipments
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ITU_cleanup_the_mess }
+
+		x = 2
+		y = 1
+		relative_position_id = ITU_cleanup_the_mess
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 2500
+                producer = ITA
+            }
+			
+			add_equipment_to_stockpile = {
+                type = artillery_equipment
+                amount = 30
+                producer = ITA
+            }
+	
+		}
+	}
+	
+	focus = {
+		id = ITU_italian_army
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = ITU_italian_equipments }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_italian_equipments
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    
+			add_war_support = 0.1
+			
+			division_template = {
+				name = "Tunisino Division"
+				priority = 1
+				division_names_group = ITA_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+
+
+		
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+				}
+			}
+			
+			458 = {
+				create_unit = {
+					division = "name = \"1. Tunisino Division\" division_template = \"Tunisino Division\" start_experience_factor = 0.5" 
+					owner = ITU
+				}
+				
+				create_unit = {
+					division = "name = \"2. Tunisino Division\" division_template = \"Tunisino Division\" start_experience_factor = 0.5" 
+                    owner = ITU
+				}
+				
+			}
+			
+			665 = {
+			    create_unit = {
+					division = "name = \"3. Tunisino Division\" division_template = \"Tunisino Division\" start_experience_factor = 0.5" 
+					owner = ITU
+				}
+	        }
+		}
+	}
+	
+	focus = {
+		id = ITU_research_slot
+		icon = GFX_focus_research
+		prerequisite = { focus = ITU_italian_army }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_italian_army
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    
+	        add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = ITU_improve_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ITU_militaryindustries }
+		prerequisite = { focus = ITU_nazi_party }
+		prerequisite = { focus = ITU_research_slot }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_nazi_party
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    
+	        458 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+				}	
+			}
+			
+			458 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+			
+			665 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = ITU_tackle_resistance
+		icon = GFX_goal_generic_attack_allies
+		prerequisite = { focus = ITU_improve_infrastructure }
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_improve_infrastructure
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    
+	        remove_ideas = ITU_resistance
+		}
+	}
+	
+	focus = {
+		id = ITU_italianisation
+		icon = GFX_focus_ger_reichskommisariats
+		prerequisite = {
+		    focus = ITU_tackle_resistance
+		}
+
+
+		x = 0
+		y = 1
+		relative_position_id = ITU_tackle_resistance
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+		    
+	        add_manpower = 30000
+			add_stability = 0.15
+			remove_ideas = ITU_inflation
+		}
+	}
+}
