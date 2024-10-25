@@ -1243,7 +1243,7 @@ LGF_UNIFIED = {
 	color_ui = rgb { 205 69 69 }
 }
 	
-	### +TR ###
+### +TR ###
 	
 IGL_unified = {
 	color = rgb { 0 148 24 }
@@ -1254,8 +1254,6 @@ IFR_collaboration_france = {
 color = rgb { 65 109 167 }
 color_ui = rgb { 65 109 167 }
 }
-
-### +TR ###
 
 ISE = {
 	color = rgb { 60 90 138 }
@@ -1363,6 +1361,11 @@ BKU = {
 }
 
 LEV = {
+	color = rgb { 86 156 0 }
+	color_ui = rgb { 86 156 0 }
+}
+
+IEB = {
 	color = rgb { 86 156 0 }
 	color_ui = rgb { 86 156 0 }
 }
