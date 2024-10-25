@@ -745,13 +745,14 @@ ITA_triumvirateplus_category_asia = {
 			if = {
 				add_political_power = 25
 				add_stability = 0.01
-				set_autonomy = { target IEB autonomy_state = autonomy_reichskommissariat }
+				set_autonomy = { target = IEB autonomy_state = autonomy_reichskommissariat }
 			}
-			every_state
+			every_state = {
 				limit = {
 					OR = {
 					state = 553
 					}
+				}
 			}
 			IEB = {
 				transfer_state = PREV
@@ -761,7 +762,6 @@ ITA_triumvirateplus_category_asia = {
 			}
 		}
 	}
-	
 
 	ITA_triumvirateplus_kingdomofiraq = {
 		
@@ -798,7 +798,7 @@ ITA_triumvirateplus_category_asia = {
 			add_political_power = 25
 				add_stability = 0.01
 				
-				set_autonomy = { target ITQ autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = ITQ autonomy_state = autonomy_reichskommissariat}
 			}
 			
 			every_state = {
