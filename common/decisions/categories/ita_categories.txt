@@ -25,3 +25,10 @@ ITA_triumvirateplus_category_uniting_pac = {
 		original_tag = ITA
 	}
 }
+
+ITA_triumvirateplus_category_transfer = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}
