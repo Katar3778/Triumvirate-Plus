@@ -716,6 +716,9 @@ ITA_triumvirateplus_category_africa = {
 	}
 }
 ITA_triumvirateplus_category_asia = {
+	
+	ITA_triumvirateplus_lebanon = {
+	}
 
 	ITA_triumvirateplus_kingdomofiraq = {
 		
