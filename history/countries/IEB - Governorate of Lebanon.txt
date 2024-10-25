@@ -18,7 +18,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Camille Chamoun"
 	desc = ""
-	picture = "gfx/leaders/IEG/chamoun.dds"
+	picture = "gfx/leaders/IEB/chamoun.dds"
 	ideology = fascism_ideology
 	traits = {
 		#
@@ -28,7 +28,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Camille Chamoun"
 	desc = ""
-	picture = "gfx/leaders/IEG/chamoun.dds"
+	picture = "gfx/leaders/IEB/chamoun.dds"
 	ideology = despotism
 	traits = {
 		#
