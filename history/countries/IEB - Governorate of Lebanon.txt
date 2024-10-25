@@ -1,0 +1,36 @@
+capital = 553
+
+oob = "IEB_1936"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 50
+	communism = 5
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Camille Chamoun"
+	desc = ""
+	picture = "gfx/leaders/IEG/chamoun.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Camille Chamoun"
+	desc = ""
+	picture = "gfx/leaders/IEG/chamoun.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
