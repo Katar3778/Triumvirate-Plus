@@ -1,0 +1,6 @@
+TUR_triumvirateplus_category_asia = {
+	
+	allowed = {
+		original_tag = TUR
+	}
+}
