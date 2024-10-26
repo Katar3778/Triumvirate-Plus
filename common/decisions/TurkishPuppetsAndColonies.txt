@@ -1,0 +1,123 @@
+
+TUR_triumvirateplus_category_asia = {
+
+	TUR_triumvirateplus_syriannationalstate = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+				}
+
+			custom_trigger_tooltip = { 
+			    tooltip = trsplus.tooltip.1
+				677 = { is_controlled_by_ROOT_or_subject = yes }	
+				680 = { is_controlled_by_ROOT_or_subject = yes }
+				554 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+				}
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+		    if = {
+			add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = SNS autonomy_state = autonomy_reichskommissariat}
+			}
+
+			every_state = {
+			    limit = {
+				    OR = {
+						state = 677
+						state = 680
+						state = 554
+				    }
+			    }
+
+			    SNS = {
+
+				    transfer_state = PREV
+					
+					hidden_effect = {
+				        add_state_core = PREV
+					}
+			    }
+		    }
+		}
+	}
+	
+	ITA_triumvirateplus_mosulandkerkuk = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+				}
+
+			custom_trigger_tooltip = { 
+			    tooltip = trsplus.tooltip.1
+				676 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+				}
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+		    if = {
+			add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = BKU autonomy_state = autonomy_reichskommissariat}
+			}
+
+			every_state = {
+			    limit = {
+				    OR = {
+						state = 676
+				    }
+			    }
+
+			    BKU = {
+
+				    transfer_state = PREV
+					
+					hidden_effect = {
+				        add_state_core = PREV
+					}
+			    }
+		    }
+		}
+	}
+}
