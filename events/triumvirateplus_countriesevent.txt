@@ -147,6 +147,8 @@ country_event = {
 					state = 112
 					state = 181
 					state = 180
+					state = 697
+					state = 698
 				}
 			}
 			
@@ -176,6 +178,11 @@ country_event = {
 				}
 			}
 		}
+		JAP = {
+			transfer_state = 721
+			transfer_state = 729
+			transfer_state = 321
+		}
 	}
 	option = {
 		name = trdeath.1.b
@@ -192,6 +199,8 @@ country_event = {
 					state = 112
 					state = 181
 					state = 180
+					state = 697
+					state = 698
 				}
 			}
 			
@@ -204,6 +213,11 @@ country_event = {
 					add_state_core = PREV
 				}
 			}
+		}
+		JAP = {
+			transfer_state = 721
+			transfer_state = 729
+			transfer_state = 321
 		}
 	}
 	option = {
@@ -221,6 +235,8 @@ country_event = {
 					state = 112
 					state = 181
 					state = 180
+					state = 697
+					state = 698
 				}
 			}
 			
@@ -244,11 +260,18 @@ country_event = {
 					state = 897
 					state = 896
 					state = 544
+					state = 296
+					state = 702
 				}
 			}
 			GER = {
 				transfer_state = PREV
 			}
+		}
+		JAP = {
+			transfer_state = 721
+			transfer_state = 729
+			transfer_state = 321
 		}
 	}
 }
