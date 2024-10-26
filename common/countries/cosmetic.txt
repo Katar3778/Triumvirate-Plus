@@ -1371,3 +1371,7 @@ IEB = {
 	color_ui = rgb { 105 157 0 }
 }
 
+IBR_UNIFIED = {
+	color = rgb { 198 172 130 }
+	color_ui = rgb { 198 172 130 }
+}
