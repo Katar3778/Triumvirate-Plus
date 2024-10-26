@@ -2,6 +2,7 @@ add_namespace = trplus
 add_namespace = trnews
 add_namespace = trsunited
 add_namespace = trques
+add_namespace = trdeath
 
 country_event = {
 	id = trsunited.1
@@ -119,6 +120,134 @@ country_event = {
 			
 			hidden_effect = {
 			add_state_core = 446
+			}
+		}
+	}
+}
+
+country_event = {
+	id = trdeath.1
+	title = trdeath.1.t
+	desc = trdeath.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = trdeath.1.a
+		
+		trigger = {
+		}
+		
+		every_state = {
+			limit = {
+				OR = {
+					state = 179
+					state = 795
+					state = 112
+					state = 181
+					state = 180
+				}
+			}
+			
+			SPA = {
+				create_wargoal = {
+					target = POR
+					type = take_state_focus
+					generator = { 179 795 112 181 180 }
+				}
+				add_state_core = PREV
+			}
+			SPR = {
+				create_wargoal = {
+					target = POR
+					type = take_state_focus
+					generator = { 179 795 112 181 180 }
+				}
+				hidden_effect = {
+					add_state_core = PREV
+				}
+			}
+			GER = {
+				create_wargoal = {
+					target = POR
+					type = take_state_focus
+					generator = { 179 795 112 181 180 }
+				}
+			}
+		}
+	}
+	option = {
+		name = trdeath.1.b
+		
+		trigger = {
+		country_exists = SPA
+		}
+		
+		every_state = {
+			limit = {
+				OR = {
+					state = 179
+					state = 795
+					state = 112
+					state = 181
+					state = 180
+				}
+			}
+			
+			SPA = {
+				annex_country = { 
+					target = POR
+					transfer_troops = yes
+				}
+				hidden_effect = {
+					add_state_core = PREV
+				}
+			}
+		}
+	}
+	option = {
+		name = trdeath.1.c
+		
+		trigger = {
+		country_exists = SPR
+		}
+		
+		every_state = {
+			limit = {
+				OR = {
+					state = 179
+					state = 795
+					state = 112
+					state = 181
+					state = 180
+				}
+			}
+			
+			SPR = {
+				annex_country = {
+					target = POR
+					transfer_troops = yes
+				}
+				hidden_effect = {
+					add_state_core = PREV
+				}
+			}
+		}
+		every_state = {
+			limit = {
+				OR = {
+					state = 796
+					state = 540
+					state = 892
+					state = 891
+					state = 897
+					state = 896
+					state = 544
+				}
+			}
+			GER = {
+				transfer_state = PREV
 			}
 		}
 	}
