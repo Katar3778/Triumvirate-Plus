@@ -522,8 +522,8 @@ TUR_GREATER_TURKEY_democratic = {
 }
 
 TUR_GREATER_TURKEY_fascism = {
-	color = rgb { 163 41 41 }
-	color_ui = rgb ( 163 41 41 }
+	color = rgb { 180 0 0 }
+	color_ui = rgb ( 180 0 0 }
 }
 
 TUR_GREATER_TURKEY_neutrality = {
