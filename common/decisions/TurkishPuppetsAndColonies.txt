@@ -20,7 +20,7 @@ TUR_triumvirateplus_category_asia = {
 
 		}
 
-		cost = 2000
+		cost = 500
 		ai_will_do = {
 			factor = 10
 		}
@@ -80,7 +80,7 @@ TUR_triumvirateplus_category_asia = {
 
 		}
 
-		cost = 2000
+		cost = 500
 		ai_will_do = {
 			factor = 10
 		}
