@@ -133,6 +133,7 @@ ITA_triumvirateplus_category_europe = {
 				185 = { is_controlled_by_ROOT_or_subject = yes }
 				186 = { is_controlled_by_ROOT_or_subject = yes }
 				47 = { is_controlled_by_ROOT_or_subject = yes }
+				187 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -165,6 +166,7 @@ ITA_triumvirateplus_category_europe = {
 						state = 185
 						state = 186
 						state = 47
+						state = 187
 				    }
 			    }
 
