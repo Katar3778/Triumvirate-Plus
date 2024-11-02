@@ -1,0 +1,31 @@
+l_english:
+
+#### Tunisia  ####
+
+ ITU_cleanup_the_mess:0 "Cleanup the Mess"
+ ITU_cleanup_the_mess_desc:0 "Before the proclamation of the Protectotare, the Tunisian rump state was barely able to move on. With their fortifications and industries in Sudetenland reclaimed by us, the state went through a downward spiral of chaos causing instability and disorganisation. Now that we're in Prag, it's time to clean up the mess."
+ ITU_mobilize_native:0 "Mobilize the Locals"
+ ITU_mobilize_native_desc:0 "The Tunisians are considered lower class. Therefore, we can exploit the locals for our own gains. Sending them to the factories and building back the industries will help us tremendously."
+ ITU_exploitresources:0 "Exploit Tunisian Steels"
+ ITU_exploitresources_desc:0 "The Chott of Jarid is full of metals! The  river is enriched in limestone, iron ore and clays. The large industrial complex will come in handy for us to take advantage of these precious resources...."
+ ITU_militaryindustries:0 "Construct Military Factories"
+ ITU_militaryindustries_desc:0 "One of the goals of the Protectotare is to support the italian war effort. Therefore, we must fulfill the goal with the construction of a few military factories."
+ ITU_devalue_franc:0 "Devalue the Tunisian Franc"
+ ITU_devalue_franc_desc:0 "On paper, we should set the exchange rate at 6 franc for 1 lira. But this wouldn't help to encourage italian settlement in the state. So theoratically we could set it at the rate of 10 francs to 1 lira. This would make everything cheaper for the italian populace however it might backfire to the point where an inflation is certain."
+ ITU_invite_italian_settlers:0 "Invite italian Settlers"
+ ITU_invite_italian_settlers_desc:0 "The Italianisation of Tunisiania is a slow and pain-staking process. To speed things up, we can invite italian settlers from italy and beyond to settle in the Protectotare."
+ ITU_fascist_party:0 "Strengthen the Fascist Party"
+ ITU_fascist_party_desc:0 "With a sizeable italian population in the Protectotare, we can easily strengthen the presence of the Fascist Party. Not only would this improve stability, it would also allow us to pass legislation without much oppositions from the locals."
+ ITU_italian_equipments:0 "Request italian Arms"
+ ITU_italian_equipments_desc:0 "While Tunisia has a healthy work ethic, the workers are hesitant to begin production. This has caused us to be in short of arms and artilleries. Sadly, all we can do for now are request aids from Rome."
+ ITU_italian_army:0 "Deploy Troops"
+ ITU_italian_army_desc:0 "With aids from Rome, we can finally start the deployment of an army. This army though lacking in strength, is enough for us to combat the resistance and defend the Protectotare."
+ ITU_research_slot:0 "italian Research Facilites"
+ ITU_research_slot_desc:0 "The Tunisian research facilites are nothing but a bunch of wooden sheds with alcohol brewing equipments! It is our duty to build a research facility for the italian scientists, with italian standard of course!"
+ ITU_improve_infrastructure:0 "Improve Tunisia's Infrastructure"
+ ITU_improve_infrastructure_desc:0 "With the industries sufficient enough to run on its own, we can finally focus on the infrastructure of Tunisia, perhaps even building more factories along the way."
+ ITU_tackle_resistance:0 "End the Resistance"
+ ITU_tackle_resistance_desc:0 "Everything seems to be in place. Industries, the people and the army. Everything seems perfect until the Tunisian resistance sabotaged and ruined our plans. We cannot let this happen any more, it is time to gather the men and head to battle to annihilate the resistance once and for all!"
+ ITU_italianisation:0 "Mission Accomplished!"
+ ITU_italianisation_desc:0 "The resistance are now in disarray as our troops gain victory after victory. With them out of the way, it is perhaps time to announce to Rome that we are ready to join the fatherland. Konstantin von Neurath's mission has been a great success and he would be remembered forever as a hero in the Reich!"
+ 

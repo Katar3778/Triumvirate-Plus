@@ -134,7 +134,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ITU_devalue_krona
+		id = ITU_devalue_franc
 		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = ITU_cleanup_the_mess }
 
@@ -161,11 +161,11 @@ focus_tree = {
 	focus = {
 		id = ITU_invite_italian_settlers
 		icon = GFX_goal_generic_intelligence_exchange
-		prerequisite = { focus = ITU_devalue_krona }
+		prerequisite = { focus = ITU_devalue_franc }
 
 		x = 0
 		y = 1
-		relative_position_id = ITU_devalue_krona
+		relative_position_id = ITU_devalue_franc
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -184,7 +184,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ITU_nazi_party
+		id = ITU_fascist_party
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = ITU_invite_italian_settlers }
 
@@ -334,12 +334,12 @@ focus_tree = {
 		id = ITU_improve_infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = ITU_militaryindustries }
-		prerequisite = { focus = ITU_nazi_party }
+		prerequisite = { focus = ITU_fascist_party }
 		prerequisite = { focus = ITU_research_slot }
 
 		x = 0
 		y = 1
-		relative_position_id = ITU_nazi_party
+		relative_position_id = ITU_fascist_party
 		cost = 10
 		ai_will_do = {
 			factor = 10
