@@ -3,6 +3,7 @@ add_namespace = trnews
 add_namespace = trsunited
 add_namespace = trques
 add_namespace = trdeath
+add_namespace = trfaction
 
 country_event = {
 	id = trsunited.1
@@ -272,6 +273,26 @@ country_event = {
 			transfer_state = 721
 			transfer_state = 729
 			transfer_state = 321
+		}
+	}
+}
+
+country_event = {
+	id = trfaction.1
+	title = trfaction.1.t
+	desc = trfaction.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = trfaction.1.a
+		trigger = {
+		}
+		ITA = {
+			create_faction = Triumvirate
+			add_to_faction = TUR
+			add_to_faction = SPA
 		}
 	}
 }

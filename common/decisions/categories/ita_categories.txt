@@ -32,3 +32,10 @@ ITA_triumvirateplus_category_transfer = {
 		original_tag = ITA
 	}
 }
+
+ITA_triumvirateplus_category_faction = {
+
+	allowed = {
+		original_tag = ITA
+	}
+}
