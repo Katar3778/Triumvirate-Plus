@@ -290,7 +290,7 @@ country_event = {
 		trigger = {
 		}
 		ITA = {
-			create_faction = Triumvirate
+			set_faction_name = The Triumvirate
 			add_to_faction = TUR
 			add_to_faction = SPA
 		}
