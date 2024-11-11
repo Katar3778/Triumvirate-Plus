@@ -1,6 +1,35 @@
 
 ITA_triumvirateplus_category_faction = {
+
+	ITA_form_alliance = {
 	
+		icon = ger_reichskommissariats
+ 
+		available = {
+			country_exists = ITA
+			has_global_flag = GER_volkspakt_formed
+			TAG = ITA
+		}
+		
+		days_remove = 100
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			create_faction = trfaction.1.a
+			add_to_faction = TUR
+		}
+	}
+}
+
 	ITA_triumvirateplus_invite_spain = {
 	
 		icon = ger_reichskommissariats
