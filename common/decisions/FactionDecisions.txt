@@ -14,6 +14,9 @@ ITA_triumvirateplus_category_faction = {
 				has_government = fascism
 				has_government = neutrality
 			}
+			NOT = {
+				is_in_faction_with = GER
+			}
 		}
 		
 		days_remove = 100
