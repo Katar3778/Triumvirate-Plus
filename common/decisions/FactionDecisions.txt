@@ -7,7 +7,6 @@ ITA_triumvirateplus_category_faction = {
  
 		available = {
 			country_exists = ITA
-			has_global_flag = GER_volkspakt_formed
 			TAG = ITA
 		}
 		
