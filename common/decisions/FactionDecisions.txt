@@ -10,13 +10,16 @@ ITA_triumvirateplus_category_faction = {
 			TAG = ITA
 			GER = {
 				has_completed_focus = GER_improve_national_spirit
+			OR = {
+				has_government = fascism
+				has_government = neutrality
 			}
 		}
 		
 		days_remove = 100
 		cost = 500
 		ai_will_do = {
-			factor = 100
+			factor = 0
 		}
 		
 		fire_only_once = yes
@@ -47,7 +50,7 @@ ITA_triumvirateplus_category_faction = {
 		}
 		cost = 0 
 		ai_will_do = {
-			factor = 10
+			factor = 1
 		}
 
 		visible = {
