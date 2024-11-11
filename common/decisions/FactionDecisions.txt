@@ -7,6 +7,13 @@ ITA_triumvirateplus_category_faction = {
 		available = {
 			country_exists = ITA
 			TAG = ITA
+			}
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+			NOT = {
+				is_in_faction_with = GER
 		}
 		
 		days_remove = 100
@@ -22,10 +29,12 @@ ITA_triumvirateplus_category_faction = {
 		}
 		
 		remove_effect = {
-			create_faction = ita_faction_FE
+			create_faction = Triumvirate
 			add_to_faction = TUR
+			add_to_faction = SPR
+
 			
-			news_event = FEitaly.1
+			news_event = trfaction.1.a
 		}
 	}
 }
