@@ -304,7 +304,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = trfaction.1.a
+		name = trfaction.2.a
 		trigger = {
 		}
 		ITA = {
