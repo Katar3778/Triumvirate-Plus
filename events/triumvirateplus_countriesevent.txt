@@ -292,7 +292,6 @@ country_event = {
 		ITA = {
 			set_faction_name = "Triumvirate"
 			add_to_faction = TUR
-			add_to_faction = SPA
 		}
 	}
 }
