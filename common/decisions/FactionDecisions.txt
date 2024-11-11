@@ -43,8 +43,8 @@ ITA_triumvirateplus_category_faction = {
 		icon = ger_reichskommissariats
 
 		available = {
-			ITA = {
-				has_completed_decsion = ITA_form_alliance
+			GER = {
+				has_completed_focus = GER_improve_national_spirit
 			OR = {
 				has_government = fascism
 				has_government = neutrality
