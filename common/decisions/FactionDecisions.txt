@@ -8,6 +8,9 @@ ITA_triumvirateplus_category_faction = {
 		available = {
 			country_exists = ITA
 			TAG = ITA
+			GER = {
+				has_completed_focus = GER_improve_national_spirit
+			}
 		}
 		
 		days_remove = 100
