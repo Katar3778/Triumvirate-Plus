@@ -295,3 +295,20 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = trfaction.2
+	title = trfaction.2.t
+	desc = trfaction.2.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = trfaction.1.a
+		trigger = {
+		}
+		ITA = {
+			add_to_faction = SPR
+		}
+	}
+}
