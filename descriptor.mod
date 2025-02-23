@@ -11,5 +11,5 @@ tags={
 	"Graphics"
 }
 name="Triumvirate Plus"
-supported_version="1.14.*"
+supported_version="1.15.*"
 remote_file_id="3348464042"
