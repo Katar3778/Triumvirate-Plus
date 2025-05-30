@@ -1,4 +1,3 @@
-
 ITA_triumvirateplus_category_europe = {
 
     ITA_triumvirateplus_independentstateofserbia = {
@@ -14,7 +13,8 @@ ITA_triumvirateplus_category_europe = {
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				107 = { is_controlled_by_ROOT_or_subject = yes }
-				108 = { is_controlled_by_ROOT_or_subject = yes }	
+				108 = { is_controlled_by_ROOT_or_subject = yes }
+                764 = { is_controlled_by_ROOT_or_subject = yes }				
 			}
 
 		}
@@ -28,7 +28,7 @@ ITA_triumvirateplus_category_europe = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 		}
 		
 		fire_only_once = yes
@@ -46,6 +46,7 @@ ITA_triumvirateplus_category_europe = {
 				    OR = {
 						state = 107
 						state = 108
+						state = 764
 				    }
 			    }
 
@@ -199,6 +200,7 @@ ITA_triumvirateplus_category_europe = {
 				805 = { is_controlled_by_ROOT_or_subject = yes }
 				44 = { is_controlled_by_ROOT_or_subject = yes }
 				802 = {is_controlled_by_ROOT_or_subject = yes }
+				970 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -232,6 +234,7 @@ ITA_triumvirateplus_category_europe = {
 						state = 805
 						state = 44
 						state = 802
+						state = 970
 				    }
 			    }
 
@@ -321,7 +324,7 @@ ITA_triumvirateplus_category_africa = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
@@ -362,7 +365,7 @@ ITA_triumvirateplus_category_africa = {
 			add_political_power = 25
 				add_stability = 0.01
 
-				set_autonomy = { target = IEG autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = IEG autonomy_state = autonomy_reichskommissariat }
 			}
 
 			every_state = {
@@ -614,6 +617,11 @@ ITA_triumvirateplus_category_africa = {
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				775 = { is_controlled_by_ROOT_or_subject = yes }
+				774 = { is_controlled_by_ROOT_or_subject = yes }
+				660 = { is_controlled_by_ROOT_or_subject = yes }
+				773	= { is_controlled_by_ROOT_or_subject = yes }
+				539 = { is_controlled_by_ROOT_or_subject = yes }
+				772 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -627,7 +635,7 @@ ITA_triumvirateplus_category_africa = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 		}
 		
 		fire_only_once = yes
@@ -644,6 +652,11 @@ ITA_triumvirateplus_category_africa = {
 			    limit = {
 				    OR = {
 						state = 775
+						state = 774
+						state = 660
+						state = 773
+						state = 539
+						state = 772
 				    }
 			    }
 
@@ -672,6 +685,7 @@ ITA_triumvirateplus_category_africa = {
 			custom_trigger_tooltip = { 
 			    tooltip = trsplus.tooltip.1
 				515 = { is_controlled_by_ROOT_or_subject = yes }
+				781 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -685,7 +699,7 @@ ITA_triumvirateplus_category_africa = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 		}
 		
 		fire_only_once = yes
@@ -702,6 +716,7 @@ ITA_triumvirateplus_category_africa = {
 			    limit = {
 				    OR = {
 						state = 515
+						state = 781
 				    }
 			    }
 
@@ -753,7 +768,7 @@ ITA_triumvirateplus_category_asia = {
 			add_political_power = 25
 				add_stability = 0.01
 				
-				set_autonomy = { target = IEB autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = IEB autonomy_state = autonomy_reichskommissariat }
 			}
 			
 			every_state = {
@@ -787,7 +802,11 @@ ITA_triumvirateplus_category_asia = {
 			custom_trigger_tooltip = {
 			tooltip = trsplus.tooltip.1
 			675 = { is_controlled_by_ROOT_or_subject = yes }
+			656 = { is_controlled_by_ROOT_or_subject = yes }
 			291 = { is_controlled_by_ROOT_or_subject = yes }
+			676 = { is_controlled_by_ROOT_or_subject = yes }
+			1011 = { is_controlled_by_ROOT_or_subject = yes }
+			1010 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		
@@ -800,7 +819,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 		}
 		
 		fire_only_once = yes
@@ -818,6 +837,10 @@ ITA_triumvirateplus_category_asia = {
 					OR = {
 					state = 291
 					state = 675
+					state = 676
+					state = 1010
+				    state = 656
+					state = 1011
 					}
 				}
 				
@@ -847,7 +870,8 @@ ITA_triumvirateplus_category_asia = {
 			    tooltip = trsplus.tooltip.1
 				658 = { is_controlled_by_ROOT_or_subject = yes }	
 				765 = { is_controlled_by_ROOT_or_subject = yes }
-
+				1013 = { is_controlled_by_ROOT_or_subject = yes }
+				1014 = { is_controlled_by_ROOT_or_subject = yes }												
 			}
 
 		}
@@ -871,7 +895,7 @@ ITA_triumvirateplus_category_asia = {
 			add_political_power = 25
 				add_stability = 0.01
 
-				set_autonomy = { target = IGU autonomy_state = autonomy_reichskommissariat}
+				set_autonomy = { target = IGU autonomy_state = autonomy_reichskommissariat }
 			}
 
 			every_state = {
@@ -879,6 +903,8 @@ ITA_triumvirateplus_category_asia = {
 				    OR = {
 						state = 658
 						state = 765
+						state = 1013
+						state = 1014
 				    }
 			    }
 
@@ -984,7 +1010,8 @@ ITA_triumvirateplus_category_asia = {
 			    tooltip = trsplus.tooltip.1
 				293 = { is_controlled_by_ROOT_or_subject = yes }	
 				659 = { is_controlled_by_ROOT_or_subject = yes }
-
+				992 = { is_controlled_by_ROOT_or_subject = yes }
+				906 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -998,7 +1025,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}	
 		}
 		
 		fire_only_once = yes
@@ -1016,6 +1043,8 @@ ITA_triumvirateplus_category_asia = {
 				    OR = {
 						state = 293
 						state = 659
+						state = 992
+						state = 906
 				    }
 			    }
 
@@ -1044,6 +1073,8 @@ ITA_triumvirateplus_category_asia = {
 			custom_trigger_tooltip = {
 			    tooltip = trsplus.tooltip.1
 				294 = { is_controlled_by_ROOT_or_subject = yes }
+				1015 = { is_controlled_by_ROOT_or_subject = yes }
+				1016 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 
 		}
@@ -1057,7 +1088,7 @@ ITA_triumvirateplus_category_asia = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality
-				}
+			}
 		}
 		
 		fire_only_once = yes
@@ -1074,6 +1105,8 @@ ITA_triumvirateplus_category_asia = {
 			    limit = {
 				    OR = {
 						state = 294
+						state = 1016
+						state = 1015
 				    }
 			    }
 
