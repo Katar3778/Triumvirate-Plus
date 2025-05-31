@@ -1,0 +1,176 @@
+ideas = { 
+	
+	country = {
+
+        ILG_italianrule = {
+            picture = german_advisors
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				fascism_drift = 0.03
+				consumer_goods_factor = 0.15
+				
+			}
+		}
+		
+		ILG_resistance = {
+            picture = FRA_scw_intervention_republicans_focus
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				surrender_limit = -0.30
+				stability_factor = -0.25
+				conscription_factor = -0.50
+				resistance_target = 0.5
+			}
+		}
+		
+		ILG_forcedlabor = {
+            picture = generic_production_bonus
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = 0.05
+				stability_factor = -0.10
+				
+			}
+		}
+		
+		ILG_consumergoods = {
+            picture = generic_goods_red_bonus
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				consumer_goods_factor = -0.05
+				
+			}
+		}
+		
+		ILG_manpower = {
+            picture = generic_manpower_bonus
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				weekly_manpower = 500
+				
+			}
+		}
+		
+		ILG_production = {
+            picture = generic_economic_increase
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				production_factory_efficiency_gain_factor = 0.10
+				
+			}
+		}
+		
+		ILG_production2 = {
+            picture = generic_economic_increase
+			
+			allowed = {
+				tag = ILG
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+			    
+				production_factory_max_efficiency_factor = 0.10
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.05
+				
+			}
+		}
