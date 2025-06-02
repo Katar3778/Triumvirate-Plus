@@ -220,8 +220,8 @@
  IMT_DEF:0 "Montenegro"
  IMT_ADJ:0 "Montenegrin"
  
- ICR_fascism:0 "Protettorato italiano della Croazia"
- ICR_fascism_DEF:0 "The Protettorato italiano della Croazia"
+ ICR_fascism:0 "PIndependent State of Croatia"
+ ICR_fascism_DEF:0 "The Independent State of Croatia"
  ICR_democratic:0 "Republic of Croatia"
  ICR_democratic_DEF:0 "The Republic of Croatia"
  ICR_neutrality:1 "Independent State of Croatia"
