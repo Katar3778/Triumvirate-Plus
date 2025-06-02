@@ -1,7 +1,17 @@
-l_english:
+﻿l_english:
 
-#### Tunisia  ####
-
+ trtunisia_tree:0 "Tunisia focus tree"
+ ITU_italianrule:0 "Protectotare of Bohemia and Moravia"
+ ITU_italianrule_desc:0 "The occupation of French Tunisia has now been turned into a Protectotare. Habib Bourguiba, the Reichsprotektor along with his officers and supports from Rome are working hard to Italianise the state for future Italian settlement."
+ ITU_resistance:0 "Czech Resistance"
+ ITU_resistance_desc:0 "Our decision to occupy Tunisia has been met with opposition from the local Tunisians. What started out as protests and strikes has now turned into an organised resistance led by former French-Tunisian troops. It is in our best interest to keep an eye in this matter."
+ ITU_mobilizationnative:0 "Local Mobilisation"
+ ITU_mobilizationnative_desc:0 "The population of the protectorate are mobilized for labor that would aid the Italian war effort, and special offices are organized to supervise the management of industries important to that effort."
+ ITU_inflation:0 "Inflation"
+ ITU_inflation_desc:0 "The Tunisian Franc was devalued to the Lira at the rate of 10 Francs to 1 Lira, through actual rate should have been 6 Francs for 1 Lira, a policy that allowed the Italians to buy everything on the cheap in the protectorate. This has caused a decline in the economy which are deeply impacting us."
+ ITU_settlers:0 "Italian Settlers"
+ ITU_settlers_desc:0 "We have called upon the Italians of the Fatherland to migrate to the Protectotare in an effort to slowly Italianise the state. However, the industries are unable to keep up with the high numbers of settlement. This is nothing but a wound which will soon be patched up."
+ 
  ITU_cleanup_the_mess:0 "Cleanup the Mess"
  ITU_cleanup_the_mess_desc:0 "Before the proclamation of the Protectotare, the Tunisian rump state was barely able to move on. With their fortifications and industries in Sudetenland reclaimed by us, the state went through a downward spiral of chaos causing instability and disorganisation. Now that we're in Prag, it's time to clean up the mess."
  ITU_mobilize_native:0 "Mobilize the Locals"
@@ -29,3 +39,9 @@ l_english:
  ITU_italianisation:0 "Mission Accomplished!"
  ITU_italianisation_desc:0 "The resistance are now in disarray as our troops gain victory after victory. With them out of the way, it is perhaps time to announce to Rome that we are ready to join the fatherland. Konstantin von Neurath's mission has been a great success and he would be remembered forever as a hero in the Reich!"
  
+ ### test ###
+ 
+  trsunited.1:0 "ts isn't working and it won't work"
+  trsunited.1.t:0 "ts title won't show will it?"
+  trsunited.1.d:0 "fuck ass description"
+  trsunited.1.a:0 "I'm a home now. Come inside me bro."

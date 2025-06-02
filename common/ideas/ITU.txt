@@ -2,7 +2,7 @@ ideas = {
 	
 	country = {
 
-        ITU_germanrule = {
+        ITU_italianrule = {
             picture = german_advisors
 			
 			allowed = {

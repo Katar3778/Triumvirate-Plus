@@ -419,6 +419,13 @@ ITA_triumvirateplus_category_africa = {
 			}
 
 		}
+		
+		highlight_states = {
+			highlight_states_target = {
+				state = 665
+				state = 458
+			}
+		}
 
 		cost = 0
 		ai_will_do = {
