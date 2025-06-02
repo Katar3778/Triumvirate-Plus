@@ -1,4 +1,7 @@
 version="1"
+dependencies={
+	"GEACPS Plus"
+	"Reichskommissariats Plus"
 tags={
 	"Alternative History"
 	"Historical"
