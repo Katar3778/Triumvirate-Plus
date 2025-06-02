@@ -806,7 +806,6 @@ ITA_triumvirateplus_category_asia = {
 			291 = { is_controlled_by_ROOT_or_subject = yes }
 			676 = { is_controlled_by_ROOT_or_subject = yes }
 			1011 = { is_controlled_by_ROOT_or_subject = yes }
-			1010 = { is_controlled_by_ROOT_or_subject = yes }
 			}
 		}
 		
@@ -838,7 +837,6 @@ ITA_triumvirateplus_category_asia = {
 					state = 291
 					state = 675
 					state = 676
-					state = 1010
 				    state = 656
 					state = 1011
 					}
