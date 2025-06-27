@@ -1,0 +1,7 @@
+
+italy_has_cologne = {
+	any_country = {
+		tag = ITA
+		has_idea = cologne_armistice_german_hegemony
+	}
+}

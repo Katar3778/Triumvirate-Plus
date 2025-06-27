@@ -4,6 +4,7 @@ add_namespace = trsunited
 add_namespace = trques
 add_namespace = trdeath
 add_namespace = trfaction
+add_namespace = trgreece
 
 country_event = {
 	id = trsunited.1
@@ -312,3 +313,36 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = trgreece.1
+	title = trgreece.1.t
+	desc = trgreece.d
+	picture = GFX_news_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = trgreece.1.a
+		IGR = {
+			complete_focus = IGR_georgios_themelis
+		}
+	}
+	option = {
+		name = trgreece.1.b
+		IGR = {
+			complete_focus = IGR_georgios_kosmidis
+		}
+	}
+	option = {
+		name = trgreece.1.c
+		IGR = {
+			complete_focus = IGR_stefanos_sarafis
+		}
+	}
+	option = {
+		name = trgreece.1.e
+		IGR = {
+			complete_focus = IGR_sofoklis_venizelos
+		}
+	}
+	

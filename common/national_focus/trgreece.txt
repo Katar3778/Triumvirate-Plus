@@ -13,11 +13,11 @@ focus_tree = {
 		factor = 0 
 		modifier = {
 			add = 10
-			tag = igr
+			tag = IGR
 		}
 	}
 	
-	default = no
+	default = yes
 	
 	initial_show_position = {
 		x = 76
@@ -28,13 +28,95 @@ focus_tree = {
 		id = IGR_out_of_the_ashes
 		icon = GFX_focus_GER_the_proud_eagle_and_the_rising_dragon
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
+		}
+		available = {
+		always = yes
 		}
 		search_filters = {FOCUS_FILTER_STABILITY}
 		
 		completion_reward = {
 			add_political_power = 100
+			add_stability = 5
+			add_ideas = cologne_armistice_german_hegemony
 		}
+	}
+	
+	focus = {
+		id = IGR_elections
+		icon = GFX_focus_AFG_pashtunistan_referendum
+		
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		available = {
+			has_idea = cologne_armistice_german_hegemony
+		}
+		prerequisite = {
+			IGR_out_of_the_ashes
+		}
+		
+		completion_reward = {
+			country_event = trgreece.1
+		}
+	}
+	
+	focus = {
+		id = IGR_georgios_kosmidis
+		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
+		prerequisite = {
+			IGR_elections
+		}
+		mutually_exclusive = { IGR_georgios_themelis IGR_stefanos_sarafis IGR_sofoklis_venizelos }
+		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+	
+	focus = {
+		id = IGR_georgios_themelis
+		icon = GFX_focus_ITA_strengthen_ascari_corps
+		prerequisite = {
+			IGR_elections
+		}
+		mutually_exclusive = { IGR_georgios_kosmidis IGR_stefanos_sarafis IGR_sofoklis_venizelos }
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+	
+	focus = {
+		id = IGR_stefanos_sarafis
+		icon = GFX_focus_GER_legacy_of_the_spartacus_league
+		prerequisite = {
+			IGR_elections
+		}
+		mutually_exclusive = { IGR_georgios_kosmidis IGR_georgios_themelis IGR_sofoklis_venizelos }
+		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+	
+	focus = {
+		id = IGR_sofoklis_venizelos
+		icon = GFX_focus_generic_adriatic_sea_focus
+		prerequisite = {
+			IGR_elections
+		}
+		mutually_exclusive = { IGR_georgios_kosmidis IGR_georgios_themelis IGR_stefanos_sarafis }
+		cost = 5
+		ai_will_do = {
+			factor = 0
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
 	}
