@@ -1,0 +1,95 @@
+﻿
+
+####
+#### VANILLA ####
+####
+
+capital = 267 # Moscow
+
+starting_train_buffer = 3.0
+
+
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.35
+
+# Starting tech
+set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 60
+	neutrality = 0
+	communism = 10
+}
+
+			set_party_name = {
+				ideology = fascism
+				long_name = AFG_italian_colony_IMG_LONG_NAME
+				name = AFG_italian_colony_IMG_SHORT_NAME
+				}
+				
+				#create_country_leader = {
+				#name = ITA_alessandro_pirzio_biroli
+				#desc = ""
+				#picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+				#ideology = fascism_ideology
+				#traits = { leader_of_protectorate }
+				#}
+				
+			set_party_name = {
+				ideology = neutrality
+				long_name = AFG_italian_colony_IMG_LONG_NAME
+				name = AFG_italian_colony_IMG_SHORT_NAME
+				}
+				
+				#create_country_leader = {
+				#name = ITA_alessandro_pirzio_biroli
+				#desc = ""
+				#picture = GFX_portrait_ITA_alessandro_pirzio_biroli
+				#ideology = despotism
+				#traits = { leader_of_protectorate }
+				#}
