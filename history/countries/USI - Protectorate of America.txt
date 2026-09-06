@@ -1,4 +1,4 @@
-﻿capital = 358 # Washington DC
+﻿capital = 358 # New York
 
 starting_train_buffer = 5
 

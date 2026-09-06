@@ -13,7 +13,7 @@ set_technology = {
 #### VANILLA ####
 ####
 
-capital = 46 # Moscow
+capital = 46 # Muntenia (Bucharest area)
 
 starting_train_buffer = 3.0
 

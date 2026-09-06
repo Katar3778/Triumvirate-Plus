@@ -4,7 +4,7 @@
 #### VANILLA ####
 ####
 
-capital = 267 # Moscow
+capital = 267 # Kabul
 
 starting_train_buffer = 3.0
 

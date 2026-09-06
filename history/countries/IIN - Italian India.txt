@@ -1,4 +1,4 @@
-﻿capital = 439 # Tokyo/Kanto
+﻿capital = 439 # Delhi
 
 # Starting Stats
 set_stability = 0.55 #baseline, THE EMPEROR PROTECTS

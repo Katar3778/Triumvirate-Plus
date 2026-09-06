@@ -8,7 +8,7 @@
 #### VANILLA ####
 ####
 
-capital = 111 # Moscow
+capital = 111 # Uusimaa (Helsinki)
 
 starting_train_buffer = 3.0
 

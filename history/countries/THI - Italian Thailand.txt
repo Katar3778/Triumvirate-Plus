@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 285 # Moscow
+capital = 289 # Bangkok (Western Siam)
 
 starting_train_buffer = 3.0
 

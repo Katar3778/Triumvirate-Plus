@@ -1,6 +1,0 @@
-GER_triumvirateplus_borders = {
-
-	allowed = {
-		original_tag = GER
-	}
-}

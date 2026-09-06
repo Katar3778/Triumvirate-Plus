@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 757 # Moscow
+capital = 757 # Shigatse
 
 starting_train_buffer = 3.0
 

@@ -4,3 +4,10 @@ TUR_triumvirateplus_category_asia = {
 		original_tag = TUR
 	}
 }
+
+TUR_triumvirateplus_category_caucasus = {
+
+	allowed = {
+		original_tag = TUR
+	}
+}

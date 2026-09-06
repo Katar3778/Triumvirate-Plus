@@ -1,4 +1,4 @@
-﻿capital = 276 # Washington DC
+﻿capital = 276 # Southern Ontario
 
 starting_train_buffer = 5
 

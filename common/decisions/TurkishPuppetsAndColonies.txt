@@ -1,0 +1,554 @@
+TUR_triumvirateplus_category_caucasus = {
+
+	TUR_triumvirateplus_georgia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Georgia's core territory
+				9101 = { is_controlled_by_ROOT_or_subject = yes }
+				9102 = { is_controlled_by_ROOT_or_subject = yes }
+				9103 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = GEO autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9101
+						state = 9102
+						state = 9103
+					}
+				}
+
+				GEO = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_azerbaijan = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Azerbaijan's core territory
+				9111 = { is_controlled_by_ROOT_or_subject = yes }
+				9112 = { is_controlled_by_ROOT_or_subject = yes }
+				9113 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = AZR autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9111
+						state = 9112
+						state = 9113
+					}
+				}
+
+				AZR = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_kurdistan = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Kurdistan's core territory
+				9121 = { is_controlled_by_ROOT_or_subject = yes }
+				9122 = { is_controlled_by_ROOT_or_subject = yes }
+				9123 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = KUR autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9121
+						state = 9122
+						state = 9123
+					}
+				}
+
+				KUR = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_abkhazia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Abkhazia's core territory
+				9131 = { is_controlled_by_ROOT_or_subject = yes }
+				9132 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = ABK autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9131
+						state = 9132
+					}
+				}
+
+				ABK = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_northossetia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for North Ossetia's core territory
+				9141 = { is_controlled_by_ROOT_or_subject = yes }
+				9142 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = NOA autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9141
+						state = 9142
+					}
+				}
+
+				NOA = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_chechnyaingushetia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Chechnya-Ingushetia's core territory
+				9151 = { is_controlled_by_ROOT_or_subject = yes }
+				9152 = { is_controlled_by_ROOT_or_subject = yes }
+				9153 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = CIN autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9151
+						state = 9152
+						state = 9153
+					}
+				}
+
+				CIN = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_dagestan = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Dagestan's core territory
+				9161 = { is_controlled_by_ROOT_or_subject = yes }
+				9162 = { is_controlled_by_ROOT_or_subject = yes }
+				9163 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = DAG autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9161
+						state = 9162
+						state = 9163
+					}
+				}
+
+				DAG = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_kabardinobalkaria = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Kabardino-Balkaria's core territory
+				9171 = { is_controlled_by_ROOT_or_subject = yes }
+				9172 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = KBK autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9171
+						state = 9172
+					}
+				}
+
+				KBK = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+
+	TUR_triumvirateplus_crimea = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = trsplus.tooltip.1
+				# TODO: replace with real state IDs for Crimea's core territory
+				9181 = { is_controlled_by_ROOT_or_subject = yes }
+				9182 = { is_controlled_by_ROOT_or_subject = yes }
+				9183 = { is_controlled_by_ROOT_or_subject = yes }
+			}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			if = {
+				add_political_power = 25
+				add_stability = 0.01
+
+				set_autonomy = { target = CRI autonomy_state = autonomy_reichskommissariat }
+			}
+
+			every_state = {
+				limit = {
+					OR = {
+						state = 9181
+						state = 9182
+						state = 9183
+					}
+				}
+
+				CRI = {
+
+					transfer_state = PREV
+
+					hidden_effect = {
+						add_state_core = PREV
+					}
+				}
+			}
+		}
+	}
+}

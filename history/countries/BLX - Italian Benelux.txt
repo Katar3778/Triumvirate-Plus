@@ -13,7 +13,7 @@ set_technology = {
 #### VANILLA ####
 ####
 
-capital = 6 # Moscow
+capital = 6 # Vlaanderen (Belgium)
 
 starting_train_buffer = 3.0
 

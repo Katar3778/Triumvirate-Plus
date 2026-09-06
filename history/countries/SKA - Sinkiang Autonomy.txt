@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 617 # Moscow
+capital = 617 # Urumqi
 
 starting_train_buffer = 3.0
 

@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 330 # Moscow
+capital = 330 # Ulaanbaatar
 
 starting_train_buffer = 3.0
 

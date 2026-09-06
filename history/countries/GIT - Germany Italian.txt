@@ -1,4 +1,4 @@
-﻿capital = 64 # Berlin/Brandeburg
+﻿capital = 64 # Berlin/Brandenburg
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }

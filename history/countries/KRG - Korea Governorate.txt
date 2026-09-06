@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 525 # Moscow
+capital = 525 # Keiki (Seoul)
 
 starting_train_buffer = 3.0
 

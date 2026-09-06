@@ -3,7 +3,7 @@
 #### VANILLA ####
 ####
 
-capital = 286 # Moscow
+capital = 286 # South Annam (Vietnam)
 
 starting_train_buffer = 3.0
 
