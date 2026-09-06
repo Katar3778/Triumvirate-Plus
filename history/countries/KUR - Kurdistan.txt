@@ -1,5 +1,7 @@
 ### Capital City
-capital = 350
+capital = 350 # Diyarbakır
+
+oob = "KUR_1936"
 
 set_politics = {
 	ruling_party = fascism
@@ -12,4 +14,44 @@ set_popularities = {
 	fascism = 50
 	communism = 5
 	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Sheikh Said"
+	desc = ""
+	picture = "gfx/leaders/KUR/said.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sheikh Said"
+	desc = ""
+	picture = "gfx/leaders/KUR/said.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sheikh Said"
+	desc = ""
+	picture = "gfx/leaders/KUR/said.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hosni al-Arabi"
+	desc = ""
+	picture = GFX_portrait_Hosni_al_Arabi
+	ideology = leninism
+	traits = {
+		#
+	}
 }

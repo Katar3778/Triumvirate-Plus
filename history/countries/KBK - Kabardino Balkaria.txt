@@ -1,5 +1,7 @@
 ### Capital City
-capital = 827
+capital = 827 # Nalchik
+
+oob = "KBK_1936"
 
 set_politics = {
 	ruling_party = fascism
@@ -12,4 +14,44 @@ set_popularities = {
 	fascism = 50
 	communism = 5
 	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Pshemakho Kotsev"
+	desc = ""
+	picture = "gfx/leaders/KBK/pshemakho.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pshemakho Kotsev"
+	desc = ""
+	picture = "gfx/leaders/KBK/pshemakho.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pshemakho Kotsev"
+	desc = ""
+	picture = "gfx/leaders/KBK/pshemakho.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hosni al-Arabi"
+	desc = ""
+	picture = GFX_portrait_Hosni_al_Arabi
+	ideology = leninism
+	traits = {
+		#
+	}
 }
