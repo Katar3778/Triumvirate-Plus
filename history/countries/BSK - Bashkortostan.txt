@@ -1,0 +1,57 @@
+### Capital City
+capital = 651 # Ufa
+
+oob = "BSK_1936"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 50
+	communism = 5
+	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Zeki Velidi Togan"
+	desc = ""
+	picture = "gfx/leaders/BSK/zeki.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zeki Velidi Togan"
+	desc = ""
+	picture = "gfx/leaders/BSK/zeki.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zeki Velidi Togan"
+	desc = ""
+	picture = "gfx/leaders/BSK/zeki.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hosni al-Arabi"
+	desc = ""
+	picture = GFX_portrait_Hosni_al_Arabi
+	ideology = leninism
+	traits = {
+		#
+	}
+}

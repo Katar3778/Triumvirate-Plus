@@ -1,0 +1,5 @@
+graphical_culture = TUR
+graphical_culture_2d = eastern_european_2d
+
+color = rgb { 160 40 60 }
+color_ui = rgb { 160 40 60 }
