@@ -2,4 +2,3 @@ graphical_culture = GER
 graphical_culture_2d = eastern_european_2d
 
 color = rgb { 60 90 138 }
-color_ui = rgb { 60 90 138 }

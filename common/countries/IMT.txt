@@ -2,4 +2,3 @@ graphical_culture = ITA
 graphical_culture_2d = eastern_european_2d
 
 color = rgb { 109 109 173 }
-color_ui = rgb { 109 109 173 }
